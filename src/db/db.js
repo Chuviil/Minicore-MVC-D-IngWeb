@@ -5,7 +5,7 @@ export function getSalesByDateRange(fromDate, toDate) {
 
   const salesStmt = db.prepare(`
     SELECT department_id, amount
-    FROM Sales
+    FROM Spents
     WHERE date BETWEEN ? AND ?
   `);
   const sales = salesStmt.all(fromDate, toDate);
