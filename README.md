@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Minicore Ingenieria Web
 
-## Getting Started
+## Descripción del Proyecto
+El ejercicio de este semestre consiste en que se va tener 3 tablas relacionadas en la base de datos (empleado, departamento y gastos). Y la funcionalidad principal (core) consiste en filtrar y calcular los gastos que se encuentran en la base de datos en un rango de fechas que se ingrese.
 
-First, run the development server:
+Este proyecto está hecho con Next.js 15 y utiliza una base de datos SQLite, ya que es un proyecto muy simple solo para la obtención de datos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tabla de Contenidos
+- [Instalación y Ejecución del Proyecto](#instalación-y-ejecución-del-proyecto)
+- [Cómo Usar el Proyecto](#cómo-usar-el-proyecto)
+- [Créditos](#créditos)
+- [Licencia](#licencia)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalación y Ejecución del Proyecto
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/minicore.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd minicore
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Ejecuta el proyecto:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Cómo Usar el Proyecto
+1. Ingresa a http://localhost:3000
+2. Ingresa el rango de fechas para filtrar los gastos.
+3. Visualiza y analiza los resultados obtenidos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
